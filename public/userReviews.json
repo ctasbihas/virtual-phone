@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4j5EsloB48DnxRWOYQKJxT01dGj6cVFEDPQ&usqp=CAU",
+    "description": "This website is very helpful for buying mobiles. This is trusted website",
+    "ratings": "4.2"
+  },
+  
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80",
+    "description": "This website is very helpful for buying mobiles. This is trusted website",
+    "ratings": "4.9"
+  },
+  
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "img": "https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg",
+    "description": "This website is very helpful for buying mobiles. This is trusted website",
+    "ratings": "5"
+  },
+  
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "img": "https://www.seekpng.com/png/full/356-3562377_personal-user.png",
+    "description": "This website is very helpful for buying mobiles. This is trusted website",
+    "ratings": "3.5"
+  },
+  
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "img": "https://images.ctfassets.net/lh3zuq09vnm2/yBDals8aU8RWtb0xLnPkI/19b391bda8f43e16e64d40b55561e5cd/How_tracking_user_behavior_on_your_website_can_improve_customer_experience.png",
+    "description": "This website is very helpful for buying mobiles. This is trusted website",
+    "ratings": "3.6"
+  },
+  
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "img": "https://icon-library.com/images/anonymous-user-icon/anonymous-user-icon-7.jpg",
+    "description": "This website is very helpful for buying mobiles. This is trusted website",
+    "ratings": "2.9"
+  }
+]
