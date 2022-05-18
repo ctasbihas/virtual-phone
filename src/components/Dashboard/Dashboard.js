@@ -4,7 +4,7 @@ import StackedAreaChart from '../Charts/StackedAreaChart';
  
 const Dashboard = () => {
     return (
-      <div className="flex">
+      <div className="flex mt-20">
         <MixBarChart />
         <StackedAreaChart/>
       </div>
