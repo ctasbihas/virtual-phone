@@ -1,11 +1,12 @@
 import React from 'react';
 import MixBarChart from '../Charts/MixBarChart';
+import StackedAreaChart from '../Charts/StackedAreaChart';
  
 const Dashboard = () => {
     return (
-      <div>
-        <MixBarChart/>
-        <h1>This is Dashboard</h1>
+      <div className="flex">
+        <MixBarChart />
+        <StackedAreaChart/>
       </div>
     );
 };

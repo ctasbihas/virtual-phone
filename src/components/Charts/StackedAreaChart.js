@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import {
-  BarChart,
-  Bar,
+  LineChart,
+  Line,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
+  Legend
 } from "recharts";
 
-const MixBarChart = () => {
+const StackedAreaChart = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
     fetch('data.json')
@@ -17,15 +17,15 @@ const MixBarChart = () => {
     .then(data => setData(data))
   }, []);
   return (
-    <BarChart
-      width={600}
+    <LineChart
+      width={500}
       height={300}
       data={data}
       margin={{
-        top: 20,
+        top: 5,
         right: 30,
         left: 20,
-        bottom: 5,
+        bottom: 5
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />
@@ -33,10 +33,11 @@ const MixBarChart = () => {
       <YAxis />
       <Tooltip />
       <Legend />
-      <Bar dataKey="sell" stackId="a" fill="#8884d8" />
-      <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
-      <Bar dataKey="investment" fill="#ffc658" />
-    </BarChart>
+      <Line type="monotone" dataKey="sell" stroke="#8884d8" />
+      <Line type="monotone" dataKey="investment" stroke="#82ca9d" />
+      <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
+    </LineChart>
   );
 }
-export default MixBarChart;
+
+export default StackedAreaChart;
